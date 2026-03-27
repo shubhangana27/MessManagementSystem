@@ -1,0 +1,35 @@
+Aloo Paratha, Curd|5|1
+Dal Makhani, Jeera Rice, Roti|0|0
+Samosa, Chutney|0|0
+Paneer Butter Masala, Naan|0|0
+---
+Poha, Jalebi|0|0
+Chole Bhature|0|0
+Fruit, Biscuits|0|0
+Veg Biryani, Raita|0|0
+---
+Sandwich, Juice|0|0
+Rajma Chawal|0|0
+Dhokla|0|0
+Aloo Gobhi, Roti|0|0
+---
+Upma, Sambar|0|0
+Kadhi Pakora, Rice|0|0
+Cutlet, Sauce|0|0
+Dal Tadka, Tandoori Roti|0|0
+---
+Paratha, Pickle|0|0
+Veg Thali|0|0
+Pakora, Chai|0|0
+Shahi Paneer, Roti|0|0
+---
+Pancake, Syrup|0|0
+Special Biryani|0|0
+Ice Cream|0|0
+Chinese Noodles, Manchurian|0|0
+---
+Poori Bhaji|0|0
+Buffet Special|0|0
+Pizza|0|0
+Roti, Dal, Sabzi|0|0
+---
