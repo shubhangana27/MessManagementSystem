@@ -58,22 +58,15 @@ A Java console application for managing hostel mess menu, collecting student rat
 
 \### **Steps**
 
-1\. \*\*Clone the repository\*\*
-
-&#x20;  ```bash
-
-&#x20;  git clone https://github.com/shubhangana27/MessManagementSystem.git
-
-&#x20;  cd MessManagementSystem
+1. \*\*Clone the repository\*\*
+bash
+git clone https://github.com/shubhangana27/MessManagementSystem.git
+cd MessManagementSystem
 2. Compile the code
-
-&#x20;  bash
-
-&#x20;  javac -d . src/messsystem/\*.java
-
-3\. Run the application
-
-&#x20;  bash
+bash
+javac -d . src/messsystem/\*.java
+3. Run the application
+bash
 
 &#x20;  java -cp src messsystem.Main
 
