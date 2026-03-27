@@ -38,8 +38,6 @@ A Java console application for managing hostel mess menu, collecting student rat
 
 **Technologies Used**
 
-
-
 \- Java 17
 
 \- Collections Framework (ArrayList, List)
@@ -52,17 +50,13 @@ A Java console application for managing hostel mess menu, collecting student rat
 
 **How to Run**
 
-
-
-\### Prerequisites
+\### **Prerequisites**
 
 \- Java JDK 11 or higher installed
 
 
 
-\### Steps
-
-
+\### **Steps**
 
 1\. \*\*Clone the repository\*\*
 
@@ -87,7 +81,7 @@ A Java console application for managing hostel mess menu, collecting student rat
 
 **How to Use**
 
-Student Mode
+**#Student Mode**
 
 1. View Menu - See all meals for the week
 
@@ -97,7 +91,7 @@ Student Mode
 
 
 
-Admin Mode
+**#Admin Mode**
 
 1. Select "Admin - Update Menu" from main menu
 
@@ -106,160 +100,6 @@ Admin Mode
 3\. Choose day and meal to update
 
 4\. Enter new dish name
-
-
-
-**Sample Output**
-
-
-
-===== MESS MANAGEMENT SYSTEM =====
-
-
-
-===== MAIN MENU =====
-
-1\. View Full Menu
-
-2\. View Menu with Ratings
-
-3\. Rate a Meal
-
-4\. View Statistics
-
-5\. Admin - Update Menu
-
-6\. Exit
-
-
-
-Choose option (1-6): 3
-
-
-
-===== RATE A MEAL =====
-
-Select day (1-7):
-
-1\. Monday
-
-2\. Tuesday
-
-3\. Wednesday
-
-4\. Thursday
-
-5\. Friday
-
-6\. Saturday
-
-7\. Sunday
-
-3
-
-
-
-Select meal:
-
-1\. Breakfast - Sandwich, Juice
-
-2\. Lunch - Rajma Chawal
-
-3\. Snacks - Dhokla
-
-4\. Dinner - Aloo Gobhi, Roti
-
-2
-
-Enter rating (1-5 stars): 4
-
-Thank you for rating Rajma Chawal!
-
-
-
-===== MAIN MENU =====
-
-1\. View Full Menu
-
-2\. View Menu with Ratings
-
-3\. Rate a Meal
-
-4\. View Statistics
-
-5\. Admin - Update Menu
-
-6\. Exit
-
-
-
-Choose option (1-6): 4
-
-
-
-===== STATISTICS =====
-
-Dish Name                           Avg Rating      Total Ratings
-
-\----------------------------------------------------------------
-
-Aloo Paratha, Curd                  No ratings      0
-
-Dal Makhani, Jeera Rice, Roti       No ratings      0
-
-Samosa, Chutney                     No ratings      0
-
-Paneer Butter Masala, Naan          No ratings      0
-
-Poha, Jalebi                        No ratings      0
-
-Chole Bhature                       No ratings      0
-
-Fruit, Biscuits                     No ratings      0
-
-Veg Biryani, Raita                  No ratings      0
-
-Sandwich, Juice                     No ratings      0
-
-Rajma Chawal                        4.0             1
-
-Dhokla                              No ratings      0
-
-Aloo Gobhi, Roti                    No ratings      0
-
-Upma, Sambar                        No ratings      0
-
-Kadhi Pakora, Rice                  No ratings      0
-
-Cutlet, Sauce                       No ratings      0
-
-Dal Tadka, Tandoori Roti            No ratings      0
-
-Paratha, Pickle                     No ratings      0
-
-Veg Thali                           No ratings      0
-
-Pakora, Chai                        No ratings      0
-
-Shahi Paneer, Roti                  No ratings      0
-
-Pancake, Syrup                      No ratings      0
-
-Special Biryani                     No ratings      0
-
-Ice Cream                           No ratings      0
-
-Chinese Noodles, Manchurian         No ratings      0
-
-Poori Bhaji                         No ratings      0
-
-Buffet Special                      No ratings      0
-
-Pizza                               No ratings      0
-
-Roti, Dal, Sabzi                    No ratings      0
-
-
 
 
 
@@ -312,8 +152,4 @@ MenuItem.java	Represents an individual dish with name, ratings, and average calc
 Shubhangana Kanthed
 
 GitHub: @shubhangana27
-
-
-
-
 
