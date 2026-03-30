@@ -17,9 +17,10 @@ public class Main {
             System.out.println("2. View Menu with Ratings");
             System.out.println("3. Rate a Meal");
             System.out.println("4. View Statistics");
-            System.out.println("5. Admin - Update Menu");
-            System.out.println("6. Exit");
-            System.out.print("\nChoose option (1-6): ");
+            System.out.println("5. Most Popular Dish");
+            System.out.println("6. Admin - Update Menu");
+            System.out.println("7. Exit");
+            System.out.print("\nChoose option (1-7): ");
             
             int choice = scanner.nextInt();
             
@@ -37,15 +38,18 @@ public class Main {
                     mess.showStatistics();
                     break;
                 case 5:
-                    mess.adminUpdateMenu();
+                    mess.showMostPopularDish();
                     break;
                 case 6:
+                    mess.adminUpdateMenu();
+                    break;
+                case 7:
                     System.out.println("\nThank you for using Mess Management System!");
                     System.out.println("Goodbye!");
                     scanner.close();
                     return;
                 default:
-                    System.out.println("Invalid option! Please choose 1-6.");
+                    System.out.println("Invalid option! Please choose 1-7.");
             }
         }
     }

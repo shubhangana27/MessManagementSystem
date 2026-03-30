@@ -141,6 +141,32 @@ public class MessSystem {
         }
     }
     
+    public void showMostPopularDish() {
+    System.out.println("\n===== MOST POPULAR DISH =====");
+    
+    MenuItem bestDish = null;
+    double highestRating = 0;
+    
+    for(DayMenu day : weeklyMenu) {
+        MenuItem[] meals = {day.getBreakfast(), day.getLunch(), 
+                            day.getSnacks(), day.getDinner()};
+        
+        for(MenuItem meal : meals) {
+            if(meal.getTotalRatings() > 0 && meal.getAverageRating() > highestRating) {
+                highestRating = meal.getAverageRating();
+                bestDish = meal;
+            }
+        }
+    }
+    
+    if(bestDish != null) {
+        System.out.println("🏆 " + bestDish.getName());
+        System.out.println("⭐ Rating: " + String.format("%.1f", bestDish.getAverageRating()) + " stars");
+        System.out.println("📊 Total ratings: " + bestDish.getTotalRatings());
+    } else {
+        System.out.println("No ratings yet! Be the first to rate a meal.");
+    }
+}
     private void displayMenuItemStats(MenuItem item) {
         if(item.getTotalRatings() > 0) {
             System.out.printf("%-35s %-15.1f %-10d\n", 
